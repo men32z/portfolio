@@ -2,3 +2,4 @@
 *.json
 *.jpg
 *.ico
+/assets/plugins/**
