@@ -1,0 +1,25 @@
+
+/* Variables */
+$text-color: #5a5d7a;
+$link-hover: #7795f8;
+
+ body {
+   background-color: #f6f9fc;
+ }
+
+ .menu-right {
+   display: flex;
+   justify-content: space-around;
+   list-style: none;
+   font-family: Camphor,Open Sans,Segoe UI,sans-serif;
+   font-size: 1.2em;
+   margin-top: 40px;
+   li {
+     padding-left: 1em;
+     a {
+       color: $text-color;
+       width: 100%;
+       height: 100%;
+     }
+   }
+ }
