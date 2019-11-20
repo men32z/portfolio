@@ -1,10 +1,19 @@
 /* Variables */
+/* msc = media screen content */
+/*colors*/
 body {
   background-color: #f6f9fc;
 }
 
+/* general clases*/
+.max-1000 {
+  max-width: 1000px;
+}
+
+/* !general clases */
 .menu-right {
   display: flex;
+  width: 75%;
   justify-content: space-around;
   list-style: none;
   font-family: Camphor, Open Sans, Segoe UI, sans-serif;
@@ -12,16 +21,103 @@ body {
   margin-top: 40px;
 }
 
-.menu-right li {
-  padding-left: 1em;
-}
-
 .menu-right li a {
+  text-decoration: none;
   color: #5a5d7a;
   width: 100%;
   height: 100%;
+  transition: 0.1s ease-in-out;
 }
 
+.menu-right li a:hover {
+  opacity: 0.8;
+  color: #7795f8;
+}
+
+.menu-right li a:hover:after {
+  width: 100%;
+}
+
+.menu-right li a:after {
+  display: block;
+  position: relative;
+  left: 0;
+  bottom: -30px;
+  width: 0;
+  height: 8px;
+  background-color: #747fe0;
+  content: "";
+  transition: width 0.15s;
+}
+
+@media (min-width: 576px) {
+  .menu-right {
+    max-width: 286px;
+  }
+}
+.terminal {
+  width: 100%;
+}
+
+.terminal .terminal-header {
+  height: 28px;
+  background-color: #e4e3e5;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.terminal .terminal-header .t-button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-left: 9px;
+}
+
+.terminal .terminal-header .red {
+  background-color: #f96256;
+  border: 1px solid #f65549;
+}
+
+.terminal .terminal-header .yellow {
+  background-color: #fdbc3d;
+  border: 1px solid #ffb524;
+}
+
+.terminal .terminal-header .green {
+  background-color: #33c948;
+  border: 1px solid #2dbb41;
+}
+
+.terminal .terminal-window {
+  background-color: #5a5d7a;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 50px 100px rgba(50, 50, 93, 0.15), 0 15px 35px rgba(50, 50, 93, 0.2), 0 5px 15px rgba(0, 0, 0, 0.12);
+  font-family: Monaco, Consolas, Lucida Console, monospace;
+}
+
+.project {
+  position: relative;
+}
+
+.project .project-background {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  height: 110%;
+  width: 83%;
+  background-image: url("/assets/images/background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.project-links img {
+  max-width: 50px;
+}
+
+/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=styles.css.map */
 /*# sourceMappingURL=styles.css.map */
 
 /*# sourceMappingURL=styles.css.map */
