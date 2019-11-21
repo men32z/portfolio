@@ -3,3 +3,4 @@
 *.jpg
 *.ico
 /assets/plugins/**
+/assets/css/**

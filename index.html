@@ -12,10 +12,10 @@
         <div class="col-sm-12 d-flex justify-content-center justify-content-sm-end">
           <ul class="menu-right">
             <li>
-              <a href="#">Projects</a>
+              <a href="#projectsSection">Projects</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="#contactSection">Contact</a>
             </li>
           </ul>
         </div>
@@ -25,12 +25,12 @@
           <h1>Luis Preza<span>&nbsp;</span></h1>
 
           <p>
-            I am a web developer at MemSQL. My passion is building simple, beautiful user experiences.<br>
-            Check out my <a href="#">side-projects</a> below.
+            I am a Full Stack Developer. I prefer Frontend but I'm also good at backend.<br>
+            Check out my <a href="https://github.com/men32z">github-profile</a>.
           </p>
         </div>
       </section>
-      <section class="row">
+      <section class="row" id="terminalSection">
         <div class="terminal">
           <div class="terminal-header">
             <div class="t-button red"></div>
@@ -40,60 +40,69 @@
           <div class="terminal-window">
             <div class="t-statement">
               <div class="t-input">
-                Justin.currentLocation
+                Luis.currentLocation
               </div>
               <div class="t-response">
-                "San Jose, CA"
+                "Guadalajara, Jalisco, México"
               </div>
             </div>
 
 
             <div class="t-statement">
               <div class="t-input">
-                Justin.contactInfo
+                Luis.contactInfo
               </div>
               <div class="t-response">
-                ["<a href="#">j.chi2241@gmail.com</a>", "<a href="#">LinkedIn</a>", "<a href="#">github</a>"]
+                ["<a href="mailto:preza.luis@gmail.com">preza.luis@gmail.com</a>", "<a href="https://www.linkedin.com/in/men32z/">LinkedIn</a>", "<a href="https://github.com/men32z">github</a>"]
               </div>
             </div>
 
 
             <div class="t-statement">
               <div class="t-input">
-                Justin.resume
+                Luis.resume
               </div>
               <div class="t-response">
-                "<a href="#">justinchi.pdf</a>"
+                "<a href="#">LuisPreza.pdf</a>"
               </div>
             </div>
 
 
             <div class="t-statement">
               <div class="t-input">
-                Justin.interests
+                Luis.interests
               </div>
               <div class="t-response">
-                ["design", "basketball", "cooking", "starcraft"]
+                ["coding", "music", "cooking", "videogames", "travel"]
               </div>
             </div>
 
 
             <div class="t-statement">
               <div class="t-input">
-                Justin.education
+                Luis.education
               </div>
               <div class="t-response">
-                "B.Sc. Structural Engineering - University of California, San Diego"
+                "B.Sc. IT - University of Guadalajara, Guadalajara, Jalisco, Mexico"
               </div>
             </div>
 
 
             <div class="t-statement">
               <div class="t-input">
-                Justin.skills
+                Luis.skills.backend
               </div>
               <div class="t-response">
-                ["Sass", "JavaScript", "Python", "React", "Redux", "Flask", "webpack", "git"]
+                ["Php", "Ruby", "Rails", "Laravel", "Java", "NodeJS", "MySql"]
+              </div>
+            </div>
+
+            <div class="t-statement">
+              <div class="t-input">
+                Luis.skills.frontend
+              </div>
+              <div class="t-response">
+                ["JavaScript", "React", "Redux", "Vue", "Vuex", "SASS", "SCSS", "HTML5/CSS"]
               </div>
             </div>
 
@@ -106,42 +115,65 @@
           </div>
         </div>
       </section>
-      <section class="row">
+      <section class="row" id="projectsSection">
         <div class="section-title">
           <h2>Projects</h2>
         </div>
 
         <div class="project">
-          <img src="https://raw.githubusercontent.com/men32z/grid-css-framework/grid-branch/assets/images/mobile.png" alt="">
-          <div class="project-background"></div>
+          <img class="d-none d-md-block" src="https://raw.githubusercontent.com/men32z/newsweek-clone/feature-branch/images/screenshots/desktop_2.png" alt="">
+          <div class="project-background d-none d-md-block"></div>
           <div class="project-content">
-            <h3>Travlr</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h3>NewsWeek Clone</h3>
+            <p>This project requests students to build a replica of the news site Newsweek.com using the Bootstrap framework.</p>
             <div class="skills">
               <span>HTML5</span>
               <span>CSS3</span>
-              <span>Sass</span>
+              <span>Bootstrap</span>
               <span>JavaScript</span>
-              <span>ES6</span>
-              <span>ReactJS</span>
-              <span>Redux</span>
+              <span>JavaQuery</span>
+              <span>Flexbox</span>
             </div>
             <div class="project-links">
-              <a href="#">
+              <a href="https://men32z.github.io/newsweek-clone/">
                 Live Demo
                 <img src="/assets/images/link.svg" alt="">
               </a>
-              <a href="#" class="secondary">
+              <a href="https://github.com/men32z/newsweek-clone" class="secondary">
                 <img src="/assets/images/github.svg" alt="">
                 View Source
               </a>
             </div>
           </div>
+        </div>
 
+        <div class="project">
+          <img class="d-none d-md-block" src="https://raw.githubusercontent.com/men32z/grid-css-framework/grid-branch/assets/images/mobile.png" alt="">
+          <div class="project-background d-none d-md-block"></div>
+          <div class="project-content">
+            <h3>Design Your Own Grid-based Framework</h3>
+            <p>This project was building a grid-based framework (similar to bootstrap) that includes some basic functionality necessary to build a website.</p>
+            <div class="skills">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>SASS</span>
+              <span>Flexbox</span>
+            </div>
+            <div class="project-links">
+              <a href="https://men32z.github.io/grid-css-framework/">
+                Live Demo
+                <img src="/assets/images/link.svg" alt="">
+              </a>
+              <a href="https://github.com/men32z/grid-css-framework" class="secondary">
+                <img src="/assets/images/github.svg" alt="">
+                View Source
+              </a>
+            </div>
+          </div>
         </div>
       </section>
     </main>
-    <footer class="container max-1000">
+    <footer class="container max-1000" id="contactSection">
       <div class="row">
         <div class="section-title">
           <h2>Contact me!</h2>
@@ -151,13 +183,13 @@
         <div class="col-sm-12 d-flex justify-content-center">
           <ul class="menu-right f-menu">
             <li>
-              <a href="#">j.chi2241@gmail.com</a>
+              <a href="mailto:preza.luis@gmail.com">preza.luis@gmail.com</a>
             </li>
             <li>
-              <a href="#">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/men32z/">LinkedIn</a>
             </li>
             <li>
-              <a href="#">github</a>
+              <a href="https://github.com/men32z">github</a>
             </li>
           </ul>
         </div>
