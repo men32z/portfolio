@@ -12,13 +12,22 @@ function Footer(){
         <div className="col-sm-12 d-flex justify-content-center">
           <ul className="menu-right f-menu">
             <li>
-              <a href="mailto:preza.luis@gmail.com">preza.luis@gmail.com</a>
+              <a target="_BLANK" href="mailto:preza.luis@gmail.com">preza.luis@gmail.com</a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/men32z/">LinkedIn</a>
+              <a target="_BLANK" href="https://www.linkedin.com/in/men32z/">LinkedIn</a>
             </li>
             <li>
-              <a href="https://github.com/men32z">github</a>
+              <a target="_BLANK" href="https://github.com/men32z">GitHub</a>
+            </li>
+            <li>
+              <a target="_BLANK" href="https://stackoverflow.com/users/9371472/men32z">StackOverflow</a>
+            </li>
+            <li>
+              <a target="_BLANK" href="https://angel.co/u/luis-preza">Angel List</a>
+            </li>
+            <li>
+              <a target="_BLANK" href="https://medium.com/@men32z">Medium</a>
             </li>
           </ul>
         </div>

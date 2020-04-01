@@ -21,8 +21,8 @@ function App() {
           <h1>Luis Preza<span>&nbsp;</span></h1>
 
           <p>
-            I am a Full Stack Developer. I prefer Frontend but I'm also good at backend.<br/>
-            Check out my <a href="https://github.com/men32z">github-profile</a>.
+            I'm a Full-Stack Developer with a preference for front-end development.<br/>
+            Check out my <a target="_BLANK" href="https://github.com/men32z">GitHub profile</a>.
           </p>
         </div>
       </section>
@@ -49,7 +49,7 @@ function App() {
                 Luis.contactInfo
               </div>
               <div className="t-response">
-                ["<a href="mailto:preza.luis@gmail.com">preza.luis@gmail.com</a>", "<a href="https://www.linkedin.com/in/men32z/">LinkedIn</a>", "<a href="https://github.com/men32z">github</a>"]
+                ["<a target="_BLANK" href="mailto:preza.luis@gmail.com">preza.luis@gmail.com</a>", "<a target="_BLANK" href="https://www.linkedin.com/in/men32z/">LinkedIn</a>", "<a target="_BLANK" href="https://github.com/men32z">GitHub</a>"]
               </div>
             </div>
 
@@ -59,7 +59,7 @@ function App() {
                 Luis.resume
               </div>
               <div className="t-response">
-                "<a href="#">LuisPreza.pdf</a>"
+                "<a target="_BLANK" href="/LuisPreza.pdf">LuisPreza.pdf</a>"
               </div>
             </div>
 
@@ -69,7 +69,7 @@ function App() {
                 Luis.interests
               </div>
               <div className="t-response">
-                ["coding", "music", "cooking", "videogames", "travel"]
+                ["coding", "music", "cooking", "video games", "travel"]
               </div>
             </div>
 
@@ -121,7 +121,7 @@ function App() {
           <div className="project-background d-none d-md-block"></div>
           <div className="project-content">
             <h3>NewsWeek Clone</h3>
-            <p>This project requests students to build a replica of the news site Newsweek.com using the Bootstrap framework.</p>
+            <p>A replica of the news site Newsweek.com, built using Javascript and the Bootstrap framework.</p>
             <div className="skills">
               <span>HTML5</span>
               <span>CSS3</span>
@@ -131,11 +131,11 @@ function App() {
               <span>Flexbox</span>
             </div>
             <div className="project-links">
-              <a href="https://men32z.github.io/newsweek-clone/">
+              <a target="_BLANK" href="https://men32z.github.io/newsweek-clone/">
                 Live Demo
                 <img src="/images/link.svg" alt="" />
               </a>
-              <a href="https://github.com/men32z/newsweek-clone" className="secondary">
+              <a target="_BLANK" href="https://github.com/men32z/newsweek-clone" className="secondary">
                 <img src="/images/github.svg" alt="" />
                 View Source
               </a>
@@ -148,7 +148,7 @@ function App() {
           <div className="project-background d-none d-md-block"></div>
           <div className="project-content">
             <h3>Design Your Own Grid-based Framework</h3>
-            <p>This project was building a grid-based framework (similar to bootstrap) that includes some basic functionality necessary to build a website.</p>
+            <p>A grid-based framework (similar to bootstrap) that includes the basic functionality necessary to build a website.</p>
             <div className="skills">
               <span>HTML5</span>
               <span>CSS3</span>
@@ -156,11 +156,11 @@ function App() {
               <span>Flexbox</span>
             </div>
             <div className="project-links">
-              <a href="https://men32z.github.io/grid-css-framework/">
+              <a target="_BLANK" href="https://men32z.github.io/grid-css-framework/">
                 Live Demo
                 <img src="/images/link.svg" alt="" />
               </a>
-              <a href="https://github.com/men32z/grid-css-framework" className="secondary">
+              <a target="_BLANK" href="https://github.com/men32z/grid-css-framework" className="secondary">
                 <img src="/images/github.svg" alt="" />
                 View Source
               </a>

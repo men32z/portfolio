@@ -174,11 +174,12 @@ body {
   }
 
   &.f-menu {
+    display: flex;
+    flex-direction: column;
     font-family: Camphor, Open Sans, Segoe UI, sans-serif;
     font-size: 1.2em;
     text-align: center;
-    margin-top: 150px;
-    padding-bottom: 200px;
+    padding-bottom: 20px;
     width: auto;
     padding-left: 0;
     justify-content: unset;
@@ -187,16 +188,23 @@ body {
       display: flex;
       flex-direction: row;
 
-      &:nth-child(1)::after,
-      &:nth-child(2)::after {
-        content: "||";
-        color: #525f7f;
-        margin: 0 30px;
+      &:nth-last-child(1)::after {
+        content: "";
+      }
+      &::after {
+        content: "";
+        @include msc("sm") {
+          content: "||";
+          color: #525f7f;
+          margin: 0 30px;
+        }
       }
     }
 
     @include msc("sm") {
       max-width: 100%;
+      flex-direction: row;
+      flex-wrap: wrap;
     }
   }
 
@@ -376,6 +384,15 @@ body {
       margin: 0 auto;
       margin-top: 30px;
       width: 50px;
+    }
+  }
+}
+
+footer {
+  .section-title {
+    h2 {
+      margin-top: 10px;
+      margin-bottom: 10px;
     }
   }
 }
