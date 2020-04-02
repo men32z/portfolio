@@ -12,10 +12,12 @@ function Project({data: {title, img, description, tags, demo, repo}}){
             {tags.map(x => <span key={x}> {x} </span>)}
           </div>
           <div className="project-links">
-            <a target="_BLANK" href={demo} rel="noopener noreferrer">
-              Live Demo
-              <img src="/images/link.svg" alt="" />
-            </a>
+            {!demo ? '' : (
+              <a target="_BLANK" href={demo} rel="noopener noreferrer">
+                Live Demo
+                <img src="/images/link.svg" alt="" />
+              </a>
+            )}
             <a target="_BLANK" href={repo} className="secondary" rel="noopener noreferrer">
               <img src="/images/github.svg" alt="" />
               View Source
