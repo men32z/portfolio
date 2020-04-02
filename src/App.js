@@ -1,5 +1,6 @@
 import React from 'react';
 import Footer from './components/Footer';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
 
           <p>
             I'm a Full-Stack Developer with a preference for front-end development.<br/>
-            Check out my <a target="_BLANK" href="https://github.com/men32z">GitHub profile</a>.
+            Check out my <a target="_BLANK" href="https://github.com/men32z" rel="noopener noreferrer">GitHub profile</a>.
           </p>
         </div>
       </section>
@@ -49,7 +50,14 @@ function App() {
                 Luis.contactInfo
               </div>
               <div className="t-response">
-                ["<a target="_BLANK" href="mailto:preza.luis@gmail.com">preza.luis@gmail.com</a>", "<a target="_BLANK" href="https://www.linkedin.com/in/men32z/">LinkedIn</a>", "<a target="_BLANK" href="https://github.com/men32z">GitHub</a>"]
+                [
+                  "<a target="_BLANK" href="mailto:preza.luis@gmail.com" rel="noopener noreferrer">preza.luis@gmail.com</a>",
+                  "<a target="_BLANK" href="https://www.linkedin.com/in/men32z/" rel="noopener noreferrer">LinkedIn</a>",
+                  "<a target="_BLANK" href="https://github.com/men32z" rel="noopener noreferrer">GitHub</a>",
+                  "<a target="_BLANK" href="https://stackoverflow.com/users/9371472/men32z" rel="noopener noreferrer">StackOverflow</a>",
+                  "<a target="_BLANK" href="https://angel.co/u/luis-preza" rel="noopener noreferrer">Angel List</a>",
+                  "<a target="_BLANK" href="https://medium.com/@men32z" rel="noopener noreferrer">Medium</a>"
+                ]
               </div>
             </div>
 
@@ -111,63 +119,7 @@ function App() {
           </div>
         </div>
       </section>
-      <section className="row" id="projectsSection">
-        <div className="section-title">
-          <h2>Projects</h2>
-        </div>
-
-        <div className="project">
-          <img className="d-none d-md-block" src="https://raw.githubusercontent.com/men32z/newsweek-clone/feature-branch/images/screenshots/desktop_2.png" alt="" />
-          <div className="project-background d-none d-md-block"></div>
-          <div className="project-content">
-            <h3>NewsWeek Clone</h3>
-            <p>A replica of the news site Newsweek.com, built using Javascript and the Bootstrap framework.</p>
-            <div className="skills">
-              <span>HTML5</span>
-              <span>CSS3</span>
-              <span>Bootstrap</span>
-              <span>JavaScript</span>
-              <span>JavaQuery</span>
-              <span>Flexbox</span>
-            </div>
-            <div className="project-links">
-              <a target="_BLANK" href="https://men32z.github.io/newsweek-clone/">
-                Live Demo
-                <img src="/images/link.svg" alt="" />
-              </a>
-              <a target="_BLANK" href="https://github.com/men32z/newsweek-clone" className="secondary">
-                <img src="/images/github.svg" alt="" />
-                View Source
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div className="project">
-          <img className="d-none d-md-block" src="https://raw.githubusercontent.com/men32z/grid-css-framework/grid-branch/assets/images/mobile.png" alt="" />
-          <div className="project-background d-none d-md-block"></div>
-          <div className="project-content">
-            <h3>Design Your Own Grid-based Framework</h3>
-            <p>A grid-based framework (similar to bootstrap) that includes the basic functionality necessary to build a website.</p>
-            <div className="skills">
-              <span>HTML5</span>
-              <span>CSS3</span>
-              <span>SASS</span>
-              <span>Flexbox</span>
-            </div>
-            <div className="project-links">
-              <a target="_BLANK" href="https://men32z.github.io/grid-css-framework/">
-                Live Demo
-                <img src="/images/link.svg" alt="" />
-              </a>
-              <a target="_BLANK" href="https://github.com/men32z/grid-css-framework" className="secondary">
-                <img src="/images/github.svg" alt="" />
-                View Source
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Projects />
       <Footer />
     </main>
 

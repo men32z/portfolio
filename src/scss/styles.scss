@@ -133,6 +133,15 @@ body {
   }
 }
 
+a.mail-link {
+  text-decoration: none;
+  color: #525f7f;
+  font-size: 1.3rem;
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
 .menu-right {
   display: flex;
   width: 75%;
@@ -182,18 +191,20 @@ body {
     padding-bottom: 20px;
     width: auto;
     padding-left: 0;
-    justify-content: unset;
+    justify-content: center;
 
     li {
       display: flex;
       flex-direction: row;
-
+      a::after {
+        bottom: 0;
+      }
       &:nth-last-child(1)::after {
         content: "";
       }
       &::after {
         content: "";
-        @include msc("sm") {
+        @include msc("md") {
           content: "||";
           color: #525f7f;
           margin: 0 30px;
@@ -201,7 +212,7 @@ body {
       }
     }
 
-    @include msc("sm") {
+    @include msc("md") {
       max-width: 100%;
       flex-direction: row;
       flex-wrap: wrap;
