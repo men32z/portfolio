@@ -22,7 +22,7 @@ function App() {
           <h1>Luis Preza<span>&nbsp;</span></h1>
 
           <p>
-            I'm a full-stack Developer with a preference for front-end development.<br/>
+            I'm a full-stack developer with a preference for front-end development.<br/>
             Check out my <a target="_BLANK" href="https://github.com/men32z" rel="noopener noreferrer">GitHub profile</a>.
           </p>
         </div>
