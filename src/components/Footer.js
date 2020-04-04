@@ -19,10 +19,10 @@ function Footer(){
               <a target="_BLANK" href="https://github.com/men32z" rel="noopener noreferrer">GitHub</a>
             </li>
             <li>
-              <a target="_BLANK" href="https://stackoverflow.com/users/9371472/men32z" rel="noopener noreferrer">StackOverflow</a>
+              <a target="_BLANK" href="https://stackoverflow.com/users/9371472/men32z" rel="noopener noreferrer">Stack Overflow</a>
             </li>
             <li>
-              <a target="_BLANK" href="https://angel.co/u/luis-preza" rel="noopener noreferrer">Angel List</a>
+              <a target="_BLANK" href="https://angel.co/u/luis-preza" rel="noopener noreferrer">AngelList</a>
             </li>
             <li>
               <a target="_BLANK" href="https://medium.com/@men32z" rel="noopener noreferrer">Medium</a>

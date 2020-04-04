@@ -22,7 +22,7 @@ function App() {
           <h1>Luis Preza<span>&nbsp;</span></h1>
 
           <p>
-            I'm a Full-Stack Developer with a preference for front-end development.<br/>
+            I'm a full-stack Developer with a preference for front-end development.<br/>
             Check out my <a target="_BLANK" href="https://github.com/men32z" rel="noopener noreferrer">GitHub profile</a>.
           </p>
         </div>
@@ -54,8 +54,8 @@ function App() {
                   "<a target="_BLANK" href="mailto:preza.luis@gmail.com" rel="noopener noreferrer">preza.luis@gmail.com</a>",
                   "<a target="_BLANK" href="https://www.linkedin.com/in/men32z/" rel="noopener noreferrer">LinkedIn</a>",
                   "<a target="_BLANK" href="https://github.com/men32z" rel="noopener noreferrer">GitHub</a>",
-                  "<a target="_BLANK" href="https://stackoverflow.com/users/9371472/men32z" rel="noopener noreferrer">StackOverflow</a>",
-                  "<a target="_BLANK" href="https://angel.co/u/luis-preza" rel="noopener noreferrer">Angel List</a>",
+                  "<a target="_BLANK" href="https://stackoverflow.com/users/9371472/men32z" rel="noopener noreferrer">Stack Overflow</a>",
+                  "<a target="_BLANK" href="https://angel.co/u/luis-preza" rel="noopener noreferrer">AngelList</a>",
                   "<a target="_BLANK" href="https://medium.com/@men32z" rel="noopener noreferrer">Medium</a>"
                 ]
               </div>

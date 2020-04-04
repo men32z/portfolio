@@ -3,7 +3,7 @@ const projectsData = [
     id: 1,
     title: 'Learning Tracker APP',
     img: 'https://raw.githubusercontent.com/men32z/learning-tracker-app/development/docs/s2.png',
-    description: 'A learning tracker app designed to help get the motivation to learn by measuring the time you spend studying. Built using Ruby and Rails and React.',
+    description: 'A learning tracker app designed to help maintain your motivation to learn by measuring the time you spend studying. Built using Ruby and Rails and React',
     tags: [
       "React",
       "Redux",
@@ -20,7 +20,7 @@ const projectsData = [
     id: 2,
     title: 'React Native Countdown Timer',
     img: 'https://raw.githubusercontent.com/men32z/react-native-countdown-timer/development/docs/scshot.png',
-    description: 'Countdown Timer mobile app was built using React Native with Expo, which is simply a countdown timer where you can add minutes and start, pause, accelerate the countdown. ',
+    description: 'The Countdown Timer mobile app was built using React Native with Expo. It\'s simply a countdown timer that allows users to add minutes and then start, pause, or accelerate the countdown.',
     tags: [
       "React Native",
       "Redux",
@@ -32,7 +32,7 @@ const projectsData = [
     id: 3,
     title: 'React Calculator',
     img: 'https://raw.githubusercontent.com/men32z/react-calculator/development/docs/aaaaaa.png',
-    description: 'This web calculator built with React and tested with Jest has all the basic functionality of a normal calculator.',
+    description: 'This web calculator built with React and tested with Jest has all the basic functionalities of a normal calculator.',
     tags: [
       "React",
       "Jest",
@@ -46,7 +46,7 @@ const projectsData = [
     id: 4,
     title: 'Redux Bookstore',
     img: 'https://raw.githubusercontent.com/men32z/redux-bookstore/development/docs/bookstore.png',
-    description: 'An app where you can save, remove books set categories and list them with a filter, Built with React, Redux using local storage. ',
+    description: 'An app that allows users to save and remove books, set categories/genres, and list books with a filter. Built with React and Redux using local storage.',
     tags: [
       "React",
       "Redux",
