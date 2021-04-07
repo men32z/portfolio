@@ -2,8 +2,8 @@ import React from 'react';
 import Project from './Project';
 import projectsData from '../projectsData';
 
-function Projects(){
-  const projects = projectsData.map(x => <Project key={x.id} data={x}/>);
+function Projects() {
+  const projects = projectsData.map(x => <Project key={x.id} data={x} />);
   return (
     <section className="row" id="projectsSection">
       <div className="section-title">

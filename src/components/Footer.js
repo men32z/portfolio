@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Footer(){
+function Footer() {
   return (
     <footer className="container max-1000" id="contactSection">
       <div className="row">

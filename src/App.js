@@ -19,20 +19,27 @@ function App() {
       </nav>
       <section className="row header">
         <div className="col-sm-12">
-          <h1>Luis Preza<span>&nbsp;</span></h1>
+          <h1>
+            Luis Preza
+            <span>&nbsp;</span>
+          </h1>
 
           <p>
-            I'm a full-stack developer with a preference for front-end development.<br/>
-            Check out my <a target="_BLANK" href="https://github.com/men32z" rel="noopener noreferrer">GitHub profile</a>.
+            I'm a full-stack developer with a preference for front-end development.
+            <br />
+            Check out my
+            {' '}
+            <a target="_BLANK" href="https://github.com/men32z" rel="noopener noreferrer">GitHub profile</a>
+            .
           </p>
         </div>
       </section>
       <section className="row" id="terminalSection">
         <div className="terminal">
           <div className="terminal-header">
-            <div className="t-button red"></div>
-            <div className="t-button yellow"></div>
-            <div className="t-button green"></div>
+            <div className="t-button red" />
+            <div className="t-button yellow" />
+            <div className="t-button green" />
           </div>
           <div className="terminal-window">
             <div className="t-statement">
@@ -44,33 +51,44 @@ function App() {
               </div>
             </div>
 
-
             <div className="t-statement">
               <div className="t-input">
                 Luis.contactInfo
               </div>
               <div className="t-response">
                 [
-                  "<a target="_BLANK" href="mailto:preza.luis@gmail.com" rel="noopener noreferrer">preza.luis@gmail.com</a>",
-                  "<a target="_BLANK" href="https://www.linkedin.com/in/men32z/" rel="noopener noreferrer">LinkedIn</a>",
-                  "<a target="_BLANK" href="https://github.com/men32z" rel="noopener noreferrer">GitHub</a>",
-                  "<a target="_BLANK" href="https://stackoverflow.com/users/9371472/men32z" rel="noopener noreferrer">Stack Overflow</a>",
-                  "<a target="_BLANK" href="https://angel.co/u/luis-preza" rel="noopener noreferrer">AngelList</a>",
-                  "<a target="_BLANK" href="https://medium.com/@men32z" rel="noopener noreferrer">Medium</a>"
+                "
+                <a target="_BLANK" href="mailto:preza.luis@gmail.com" rel="noopener noreferrer">preza.luis@gmail.com</a>
+                ",
+                "
+                <a target="_BLANK" href="https://www.linkedin.com/in/men32z/" rel="noopener noreferrer">LinkedIn</a>
+                ",
+                "
+                <a target="_BLANK" href="https://github.com/men32z" rel="noopener noreferrer">GitHub</a>
+                ",
+                "
+                <a target="_BLANK" href="https://stackoverflow.com/users/9371472/men32z" rel="noopener noreferrer">Stack Overflow</a>
+                ",
+                "
+                <a target="_BLANK" href="https://angel.co/u/luis-preza" rel="noopener noreferrer">AngelList</a>
+                ",
+                "
+                <a target="_BLANK" href="https://medium.com/@men32z" rel="noopener noreferrer">Medium</a>
+                "
                 ]
               </div>
             </div>
-
 
             <div className="t-statement">
               <div className="t-input">
                 Luis.resume
               </div>
               <div className="t-response">
-                "<a target="_BLANK" href="/LuisPreza.pdf">LuisPreza.pdf</a>"
+                "
+                <a target="_BLANK" href="/LuisPreza.pdf">LuisPreza.pdf</a>
+                "
               </div>
             </div>
-
 
             <div className="t-statement">
               <div className="t-input">
@@ -81,7 +99,6 @@ function App() {
               </div>
             </div>
 
-
             <div className="t-statement">
               <div className="t-input">
                 Luis.education
@@ -90,7 +107,6 @@ function App() {
                 "B.Sc. IT - University of Guadalajara, Guadalajara, Jalisco, Mexico"
               </div>
             </div>
-
 
             <div className="t-statement">
               <div className="t-input">
