@@ -25,7 +25,7 @@ function App() {
           </h1>
 
           <p>
-            I'm a full-stack developer with a preference for front-end development.
+            I&apos;m a full-stack developer with a preference for front-end development.
             <br />
             Check out my
             {' '}
@@ -47,7 +47,7 @@ function App() {
                 Luis.currentLocation
               </div>
               <div className="t-response">
-                "Guadalajara, Jalisco, México"
+                &quot;Guadalajara, Jalisco, México&quot;
               </div>
             </div>
 
@@ -57,24 +57,24 @@ function App() {
               </div>
               <div className="t-response">
                 [
-                "
+                &quot;
                 <a target="_BLANK" href="mailto:preza.luis@gmail.com" rel="noopener noreferrer">preza.luis@gmail.com</a>
-                ",
-                "
+                &quot;,
+                &quot;
                 <a target="_BLANK" href="https://www.linkedin.com/in/men32z/" rel="noopener noreferrer">LinkedIn</a>
-                ",
-                "
+                &quot;,
+                &quot;
                 <a target="_BLANK" href="https://github.com/men32z" rel="noopener noreferrer">GitHub</a>
-                ",
-                "
+                &quot;,
+                &quot;
                 <a target="_BLANK" href="https://stackoverflow.com/users/9371472/men32z" rel="noopener noreferrer">Stack Overflow</a>
-                ",
-                "
+                &quot;,
+                &quot;
                 <a target="_BLANK" href="https://angel.co/u/luis-preza" rel="noopener noreferrer">AngelList</a>
-                ",
-                "
+                &quot;,
+                &quot;
                 <a target="_BLANK" href="https://medium.com/@men32z" rel="noopener noreferrer">Medium</a>
-                "
+                &quot;
                 ]
               </div>
             </div>
@@ -84,9 +84,9 @@ function App() {
                 Luis.resume
               </div>
               <div className="t-response">
-                "
+                &quot;
                 <a target="_BLANK" href="/LuisPreza.pdf">LuisPreza.pdf</a>
-                "
+                &quot;
               </div>
             </div>
 
@@ -95,7 +95,9 @@ function App() {
                 Luis.interests
               </div>
               <div className="t-response">
-                ["coding", "music", "cooking", "video games", "travel"]
+                [
+                {['coding', 'music', 'cooking', 'video games', 'travel'].map(x => `"${x}"`).join(', ')}
+                ]
               </div>
             </div>
 
@@ -104,7 +106,7 @@ function App() {
                 Luis.education
               </div>
               <div className="t-response">
-                "B.Sc. IT - University of Guadalajara, Guadalajara, Jalisco, Mexico"
+                &quot;B.Sc. IT - University of Guadalajara, Guadalajara, Jalisco, Mexico&quot;
               </div>
             </div>
 
@@ -113,7 +115,9 @@ function App() {
                 Luis.skills.backend
               </div>
               <div className="t-response">
-                ["Php", "Ruby", "Rails", "Laravel", "Java", "NodeJS", "MySql"]
+                [
+                {['Php', 'Ruby', 'Rails', 'Laravel', 'Java', 'NodeJS', 'MySql'].map(x => `"${x}"`).join(', ')}
+                ]
               </div>
             </div>
 
@@ -122,7 +126,9 @@ function App() {
                 Luis.skills.frontend
               </div>
               <div className="t-response">
-                ["JavaScript", "React", "Redux", "Vue", "Vuex", "SASS", "SCSS", "HTML5/CSS"]
+                [
+                {['JavaScript', 'React', 'Redux', 'Vue', 'Vuex', 'SASS', 'SCSS', 'HTML5/CSS'].map(x => `"${x}"`).join(', ')}
+                ]
               </div>
             </div>
 
@@ -138,7 +144,6 @@ function App() {
       <Projects />
       <Footer />
     </main>
-
   );
 }
 

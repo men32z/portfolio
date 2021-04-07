@@ -1,7 +1,9 @@
 import React from 'react';
 
 function Project({
+  // eslint-disable-next-line
   data: {
+    // eslint-disable-next-line
     title, img, description, tags, demo, repo,
   },
 }) {
@@ -13,13 +15,16 @@ function Project({
         <h3>{title}</h3>
         <p>{description}</p>
         <div className="skills">
-          {tags.map(x => (
-            <span key={x}>
-              {' '}
-              {x}
-              {' '}
-            </span>
-          ))}
+          {
+            // eslint-disable-next-line
+            tags.map(x => (
+              <span key={x}>
+                {' '}
+                {x}
+                {' '}
+              </span>
+            ))
+          }
         </div>
         <div className="project-links">
           {!demo ? '' : (
